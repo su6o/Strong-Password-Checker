@@ -1,5 +1,5 @@
 # Strong-Password-Checker
-Using this project, you can check whether your chosen password is strong enough.
+Using this Password Checker Tool, you can check whether your password is strong enough or not.
 
 # Requirements
 
@@ -9,12 +9,12 @@ Using this project, you can check whether your chosen password is strong enough.
 # Steps
 
 <li>Open Terminal</li>
-<li>git clone copied git link</li>
-<li>cd Strong-Password-Checker</li>
-<li>python app.py</li>
+<li>git clone https://github.com/su6o/Strong-Password-Checker.git</li>
+<li>Go to directory - Strong-Password-Checker</li>
+<li>Using Python execute "app.py" ( python app.py )</li>
 <li>Go to http://127.0.0.1:5000</li>
 
-<h2>Be Safe with strong Password</h2>
+<h2>Be Safe with strong your strong Password</h2>
 
 ![IMG_1](https://github.com/user-attachments/assets/7c19d740-7f0c-4c74-a8bd-4452d8c7a01d)
 ![IMG_2](https://github.com/user-attachments/assets/8c801d38-7ee2-449c-b961-92ff4cb68e94)
