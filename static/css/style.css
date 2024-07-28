@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    background-image: url('background.jpeg');
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+    position: relative;
+}
+
+h1 {
+    font-size: 1.5rem;
+    padding: 1rem 10px;
+    color: #fff;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    border: 2px solid #333;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.input-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 1rem .5rem;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    outline: none;
+}
+
+#copy-icon {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: none;
+    color: #000;
+}
+
+button {
+    padding: 15px 20px;
+    background-color: rgb(0, 0, 0);
+    color: yellow;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 2rem;
+    transition: all 0.30s ease;
+}
+
+button:hover {
+    background-color: #252525;
+}
+
+#result {
+    font-size: 16px;
+    background: #000;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: justify;
+    color: #fff;
+    list-style: disc;
+    font-weight: bold;
+    position: relative;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(3px);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+
+    button {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2rem;
+        padding: 10px 20px;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 10px 15px;
+    }
+}
