@@ -16,8 +16,6 @@ Using this project, you can check whether your chosen password is strong enough.
 
 <h2>Be Safe with strong Password</h2>
 
-# Please take a look at the screenshots below.
-
 ![IMG_1](https://github.com/user-attachments/assets/7c19d740-7f0c-4c74-a8bd-4452d8c7a01d)
 ![IMG_2](https://github.com/user-attachments/assets/8c801d38-7ee2-449c-b961-92ff4cb68e94)
 ![IMG_3](https://github.com/user-attachments/assets/bf9382a4-7b08-41f0-b390-f77eaaa6498e)
